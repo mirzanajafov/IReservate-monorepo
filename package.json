@@ -1,0 +1,20 @@
+{
+   "name": "ireservate-monorepo",
+   "version": "1.0.0",
+   "description": "",
+   "main": "index.js",
+   "scripts": {
+      "start:api": "npm --workspace=apps/api run start:dev",
+      "start:web": "npm --workspace=apps/web run dev",
+      "format": "prettier --write ."
+   },
+   "keywords": [],
+   "author": "",
+   "license": "ISC",
+   "devDependencies": {
+      "eslint": "^9.36.0",
+      "eslint-config-prettier": "^10.1.8",
+      "eslint-plugin-prettier": "^5.5.4",
+      "prettier": "^3.6.2"
+   }
+}
